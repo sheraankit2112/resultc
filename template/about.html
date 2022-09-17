@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/result_form.css">
+</head>
+<body>
+    <nav>
+        <div class="upcontainer">
+            <img src="../static/OIP-removebg-preview (1).png" class="logo">
+            <div class="overall-result">
+                <h3 STYLE="COLOR:WHITE; margin-TOP:-1REM; margin-bottom:0.4REM; PADDING:0.5REM; background-color: black; border-radius: 10PX;">OVERALL  RESULT</h2>
+                <CENTER><span>{{final}}%</span></CENTER>
+            </div>
+            <ul>
+                <li class="{% if request.path == '/' %} red {% endif %}"><a href="{% url 'home' %}">HOME</a></li>
+                <li class="{% if request.path == '/login' %} red {% endif %}"><a href="{% url 'login' %}">LOGIN</a></li>
+                <li class="{% if request.path == '/signup' %} red {% endif %}"><a href="{% url 'signup' %}">SIGN UP</a></li>
+                <li class="{% if request.path == '/about' %} red {% endif %}"><a href="{% url 'about' %}">ABOUT</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    
+    <div class="check">
+        <h1>
+            MY Name Is Ankit
+        </h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.red{
+    background-color:red !important;
+}
+.container{
+    width:60%;
+    margin:0 auto;
+    
+}
+.upper{
+    margin:0.5rem 0;
+    
+}
+.upper .names{
+    width:60%;
+    
+}
+.upper .names td,.upper .names th{
+    color:black !important;
+    border:none !important;
+}
+.upper .names th{
+    width:50%;
+}
+.marks{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+    
+}
+
+.color-blue{
+      background-color: rgb(36, 36, 187);
+  }
+#mid td,#mid th{
+    color:rgb(97, 88, 88) !important;
+}
+td,th{
+    border: 3px solid black;
+    text-align: left;
+    padding:3px 8px;
+    color:white !important;
+}
+.exam{
+    text-align: center;
+}
+
+
+
+/* ################################################# upcontainer ############################# */
+nav{
+    background-color:rgb(12, 110, 117);
+    
+}
+nav .upcontainer{
+    width:80%;
+    margin:0 auto;
+    padding:1.7rem;
+    
+    height:5rem;
+
+}
+nav .container::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+nav .upcontainer .logo{
+    height:3rem;
+    width:3rem;
+    float:left;
+    
+    margin-top:-0.7rem;
+    
+}
+nav .upcontainer .overall-result{
+    float:right;
+}
+nav .upcontainer ul{
+    list-style-type:none;
+    float:right;
+    margin-right: 4rem;
+    
+}
+nav .upcontainer ul li{
+    display: inline-block;
+    margin:0 0.5rem;
+    
+}
+nav .upcontainer ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    padding:0.5rem; 
+}
+nav .upcontainer ul li a:hover{
+    background-color:rgb(0, 0, 0);
+    border-radius: 2rem;
+
+}
+
+marquee{
+    height:3rem;
+    width:100%;
+    background-color: red;
+    padding:1rem;
+    margin-bottom: 2rem;
+}
+marquee p{
+    font-size:1rem;
+    margin:0;
+    padding:0;
+}
+
+/* ########################################################check result############################ */
+.check{
+    height:60vh;
+    
+    margin-top:4rem;
+    
+}
+.check .check-container{
+    
+    height: 15rem;
+    
+    top:50%;
+    left:50%;
+    width:26rem;
+    margin:0 auto
+    
+}
+.check .check-container form label{
+    font-weight: bold;
+    font-size: large;
+    margin-right: 2rem;
+    margin-top:1rem;
+    display: inline-block;
+    
+}
+.check .check-container form .name{
+    margin-right: 5.4rem;
+}
+
+.check .check-container form input:focus{
+    
+    padding: 0.2rem;
+
+
+}
+.check .check-container form input[value="check"]{
+    margin-top: 1rem;
+    margin-left: 14rem;
+    padding:0.3rem 1rem;
+    border: none;
+    background-color: blue;
+    color:white;
+    font-size: large;
+    border-radius: 0.5rem;
+}
+.check .check-container form .submit:hover{
+    background-color: black;
+    color: white;
+}
+
+.topper{
+    height:4.3rem;
+    width:100%;
+    background-color: yellow;
+}  
+.topper h1{
+    padding:0.5rem 1rem;
+    margin-top:0.5rem;
+    display:inline-block;
+    background-color: black;
+    color:white;
+}
